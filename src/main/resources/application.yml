@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 1234567890
-    url: jdbc:mysql://61.84.71.208:43306/mlink?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    password: ""
+    url: ""
     username: ydwms
 
   jpa:
