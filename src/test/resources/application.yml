@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: mac7564
+    url: jdbc:mysql://61.84.71.208:3306/testdb?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
